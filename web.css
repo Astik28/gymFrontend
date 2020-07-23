@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+#navbar::before
+{
+    content:"";
+    background:rgb(56, 55, 55);
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    
+}
+#navbar{
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0px;
+
+}
+#logo img{
+    padding:33px 11px;
+    height:99px;
+    width:166px;
+
+}
+
+#navbar ul{
+    display:flex;
+}
+#navbar ul li{
+list-style:none;
+    font-size:22px;
+    padding: 22px;
+}
+#navbar ul li a{
+    text-decoration:none;
+    color:rgb(243, 239, 247);
+    font-weight:bold;
+}
+#navbar ul li a:hover{
+    color:black;
+    background:white;
+    border:3px solid black;
+    }
+
+    #home{
+         display:flex;
+         flex-direction:column;
+         align-items:center;
+         text-align:center;
+         color:white;
+         
+         }
+#home::before
+{
+    position:absolute;
+    content:"";
+    background:url("gymImages/barbell.jpg")no-repeat center center/cover;
+    height:100%;
+    width:100%;
+    z-index:-1;
+}
+
+
+#home h1{
+    text-align:center;
+    font-weight:bold;
+    font-size:44px;
+    }
+
+    #home p{
+        font-size:22px;
+        
+        
+    }
+
+    h2{
+        text-decoration:underline;
+        font-size:55px;
+        text-align:center;
+        color:white;
+    }
+
+#targets{
+    display:flex;
+    Justify-content:space-between;
+    padding:44px;
+    margin:44px;
+
+}
+.blocks{
+    border:2px solid black;
+    padding:111px 144px;
+    border-radius:33px;
+    }
+
+    #b1{
+        background:url("gymImages/hulk.jpg")no-repeat center center/cover;
+    }
+    #b2{
+        background:url("gymImages/push.jpg")no-repeat center center/cover;
+
+    }
+    #b3
+    {
+        background:url("gymImages/dumbell.png")no-repeat center center/cover;
+    }
+
+    end h2::before{
+        content:"";
+        position:relative;
+        z-index:1;
+        width:100%;
+        height:100%;
+    }
+    end h2{
+        color:rgb(241, 32, 32);
+        font-style:bold;
+        font-size:33px;
+        background:black;
+    }
+
+
+
+  
+    #spo::before{
+        content:"";
+        position:absolute;
+        background:url("gymImages/back.png")no-repeat center center/cover;
+        height:100%;
+        width:100%;
+            z-index:-1;
+        }
+
+        #h{
+            
+            font-size:77px;
+            font-weight:bold;
+            text-decoration:underline;
+            text-align:center;
+            color:rgb(224, 196, 198);
+            background:black;
+
+        }
+
+    footer{
+        color:white;
+        background:black;
+        text-align:center;
+        padding:9px 20px;
+
+    }
+
+
+    #ast{
+        margin:666px auto;
+    }
+
+    .h-fill{
+        text-align:center;
+        font-weight:bold;
+        color:rgb(243, 236, 236);
+        background:rgb(19, 17, 17);
+        font-size:55px;
+    
+        width:20%;
+        margin:auto 600px;
+
+    }
+
+    #fill{
+        position:relative;
+    }
+
+    #fill::before{
+        content:"";
+        position:absolute;
+        z-index:-1;
+        height:100%;
+        width:100%;
+        background:url("gymImages/bicep.jpeg")no-repeat center center/cover;
+        opacity:.7;
+    }
+
+    
+
+    .form-group
+    {
+display:flex;
+flex-direction:column;
+color:rgb(26, 20, 20);
+justify-content:center;
+align-items:center;
+font-size:22px;
+    }
+
+    .info{
+        margin:11px auto;
+        padding:33px auto;
+        font-weight:bold;
+}
+
+
+
+    #btn{
+        margin:33px auto;
+        padding:4px;
+        font-weight:bold;
+        background:none;
+        cursor:pointer;
+        color:white;
+        text-align:center;
+        }
